@@ -54,7 +54,6 @@ public:
             auto[i,j]=cd;
             if(i==n-1&&j==n-1)
             return ans;
-            vis[i][j]=1;
             for(int k=0;k<4;k++)
                 {
                     int nr=i+dr[k];
